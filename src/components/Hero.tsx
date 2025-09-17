@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Calendar, MapPin, Users, Sparkles } from "lucide-react";
 import auroraHero from "@/assets/aurora-hero.jpg";
+import fresherInvitation from "@/assets/fresher-invitation.png";
 
 const Hero = () => {
   return (
@@ -73,14 +74,13 @@ const Hero = () => {
             </Card>
           </div>
           
-          {/* Call to Action */}
-          <div className="space-y-4">
-            <Button 
-              size="lg" 
-              className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold aurora-glow animate-glow"
-            >
-              Register Now
-            </Button>
+          {/* Aurora Invitation */}
+          <div className="flex justify-center">
+            <img 
+              src={fresherInvitation} 
+              alt="ABES invites you to Aurora - Fresher's Party" 
+              className="max-w-md w-full h-auto rounded-lg shadow-2xl aurora-glow hover:scale-105 transition-transform duration-300"
+            />
           </div>
         </div>
       </div>

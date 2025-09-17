@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Music, Gamepad2, Trophy, Camera, Heart, Zap } from "lucide-react";
+import { Music, Users, Trophy, MapPin, Heart, Lightbulb } from "lucide-react";
 
 const EventHighlights = () => {
   const highlights = [
@@ -11,11 +11,25 @@ const EventHighlights = () => {
       bgColor: "bg-primary/10"
     },
     {
+      icon: Lightbulb,
+      title: "Guidance Sessions",
+      description: "Mentorship from seniors, academic guidance, and career counseling",
+      color: "text-secondary",
+      bgColor: "bg-secondary/10"
+    },
+    {
+      icon: Users,
+      title: "Fun Activities",
+      description: "Engaging team games, icebreaker sessions, and creative workshops",
+      color: "text-accent",
+      bgColor: "bg-accent/10"
+    },
+    {
       icon: Trophy,
       title: "Awards & Prizes",
       description: "Amazing prizes for winners, certificates, and surprise giveaways",
-      color: "text-accent",
-      bgColor: "bg-accent/10"
+      color: "text-primary",
+      bgColor: "bg-primary/10"
     },
     {
       icon: Heart,
@@ -25,9 +39,9 @@ const EventHighlights = () => {
       bgColor: "bg-secondary/10"
     },
     {
-      icon: Zap,
-      title: "Surprise Events",
-      description: "Special activities, flash mobs, and unforgettable moments",
+      icon: MapPin,
+      title: "Campus Tour",
+      description: "Explore the beautiful ABES EC campus with guided tours and photo sessions",
       color: "text-accent",
       bgColor: "bg-accent/10"
     }

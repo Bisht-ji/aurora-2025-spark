@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { MapPin, Phone, Mail, Calendar, Instagram, Twitter, Facebook } from "lucide-react";
+import { MapPin, Phone, Mail, Calendar, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="absolute inset-0 particle-bg opacity-20" />
       
       <div className="relative container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* Event Info */}
           <div>
             <h3 className="text-2xl font-bold mb-6">
@@ -42,32 +42,11 @@ const Footer = () => {
               
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-accent flex-shrink-0" />
-                <p className="text-sm text-muted-foreground">aurora2025@abes.ac.in</p>
+                <p className="text-sm text-muted-foreground">bisht-ji@outlook.com</p>
               </div>
             </div>
           </div>
           
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4 text-foreground">Quick Links</h4>
-            <div className="space-y-2">
-              {[
-                "Event Schedule",
-                "Registration",
-                "Gallery",
-                "Contact Us",
-                "About ABES EC"
-              ].map((link, index) => (
-                <a 
-                  key={index}
-                  href="#"
-                  className="block text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  {link}
-                </a>
-              ))}
-            </div>
-          </div>
           
           {/* Social Media */}
           <div>
@@ -78,20 +57,6 @@ const Footer = () => {
                 className="w-10 h-10 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center hover:bg-primary/20 transition-colors aurora-glow"
               >
                 <Instagram className="w-4 h-4 text-primary" />
-              </a>
-              
-              <a 
-                href="#"
-                className="w-10 h-10 rounded-full bg-secondary/10 border border-secondary/20 flex items-center justify-center hover:bg-secondary/20 transition-colors aurora-glow"
-              >
-                <Twitter className="w-4 h-4 text-secondary" />
-              </a>
-              
-              <a 
-                href="#"
-                className="w-10 h-10 rounded-full bg-accent/10 border border-accent/20 flex items-center justify-center hover:bg-accent/20 transition-colors aurora-glow"
-              >
-                <Facebook className="w-4 h-4 text-accent" />
               </a>
             </div>
             
