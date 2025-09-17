@@ -11,25 +11,11 @@ const EventHighlights = () => {
       bgColor: "bg-primary/10"
     },
     {
-      icon: Gamepad2,
-      title: "Interactive Games",
-      description: "Fun challenges, team building activities, and exciting competitions",
-      color: "text-secondary",
-      bgColor: "bg-secondary/10"
-    },
-    {
       icon: Trophy,
       title: "Awards & Prizes",
       description: "Amazing prizes for winners, certificates, and surprise giveaways",
       color: "text-accent",
       bgColor: "bg-accent/10"
-    },
-    {
-      icon: Camera,
-      title: "Photo Booth",
-      description: "Capture memories with themed props and professional photography",
-      color: "text-primary",
-      bgColor: "bg-primary/10"
     },
     {
       icon: Heart,

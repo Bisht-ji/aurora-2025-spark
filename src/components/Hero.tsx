@@ -47,7 +47,7 @@ const Hero = () => {
                 <Calendar className="w-5 h-5 text-primary" />
                 <div>
                   <p className="text-sm text-muted-foreground">When</p>
-                  <p className="font-semibold">Mid September 2025</p>
+                  <p className="font-semibold">21 Sept - 24 Sept</p>
                 </div>
               </div>
             </Card>
@@ -81,9 +81,6 @@ const Hero = () => {
             >
               Register Now
             </Button>
-            <p className="text-sm text-muted-foreground">
-              Early bird registration opens soon • Limited seats available
-            </p>
           </div>
         </div>
       </div>

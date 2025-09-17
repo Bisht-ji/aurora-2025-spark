@@ -11,57 +11,25 @@ const RegistrationSection = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            Reserve Your <span className="aurora-text">Spot</span>
+            Join <span className="aurora-text">Aurora</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Don't miss out on the most spectacular fresher's event of 2025. Registration opens soon!
+            Don't miss out on the most spectacular fresher's event of 2025.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start max-w-6xl mx-auto">
-          {/* Registration Benefits */}
+        <div className="max-w-2xl mx-auto">
           <div className="space-y-8">
-            <Card className="p-8 bg-card/50 backdrop-blur-sm border border-primary/20 aurora-border">
-              <h3 className="text-2xl font-bold mb-6 text-foreground">
-                What's Included?
-              </h3>
-              
-              <div className="space-y-4">
-                {[
-                  "Welcome kit with exclusive Aurora 2025 merchandise",
-                  "All meals and refreshments throughout the day",
-                  "Professional photography and videography",
-                  "Certificates and participation awards",
-                  "Access to all performances and activities",
-                  "Networking opportunities with seniors and faculty",
-                  "Surprise gifts and giveaways"
-                ].map((benefit, index) => (
-                  <div key={index} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                    <p className="text-muted-foreground">{benefit}</p>
-                  </div>
-                ))}
-              </div>
-            </Card>
-            
-            {/* Early Bird Badge */}
-            <Card className="p-6 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 border border-primary/30 aurora-glow text-center">
-              <h4 className="text-xl font-bold mb-2 text-foreground">Early Bird Special</h4>
-              <p className="text-muted-foreground mb-4">
-                First 100 registrants get exclusive Aurora 2025 merchandise
-              </p>
-              <div className="text-3xl font-bold aurora-text">FREE</div>
-            </Card>
           </div>
           
           {/* Registration Form */}
           <Card className="p-8 bg-card/70 backdrop-blur-sm border border-primary/20 aurora-border">
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold mb-2 text-foreground">
-                Get Notified
+                Register Now
               </h3>
               <p className="text-muted-foreground">
-                Be the first to know when registration opens
+                Secure your spot at Aurora 2025
               </p>
             </div>
             
@@ -131,12 +99,9 @@ const RegistrationSection = () => {
                 type="submit"
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-6 aurora-glow"
               >
-                Notify Me When Registration Opens
+                Register for Aurora 2025
               </Button>
               
-              <p className="text-xs text-muted-foreground text-center">
-                Registration opens in early September. Limited spots available!
-              </p>
             </form>
           </Card>
         </div>
